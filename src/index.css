@@ -3,11 +3,63 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* .App .FormValid .SearchButton{
+background-color:green;
+ color:white;
+} */
+
+
+
+.App .FormValid .search-input{
+  width: 42vw;
+  height: 38px;
+  /* border-radius: 10px; */
+}
+
+@media(max-width: 600px){
+  .App .FormValid .search-input{
+    width: 48vw;
+    height: 38px;
+  }
+}
+
+.coin-title{
+  background-color:#5E8F9B;
+  /* width: 100%; */
+}
+.result
+{
+  background-color:aquamarine;
+}
+
+.coin-title h3{
+  cursor: pointer;
+}
+//padding left and padding right give space between box and text...
+
+.result-table table tbody tr td{
+  padding-left: 15px;
+  padding-right: 25px;
+  
+  
+}
+
+.App .FormValid
+{
+  text-align: center;
+}
+
+.result-table{
+  padding: 0px !important;
 }
